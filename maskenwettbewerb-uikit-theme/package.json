@@ -1,0 +1,29 @@
+{
+  "name": "maskenwettbewerb-uikit-theme",
+  "description": "The UIKit based theme for the campaign website maskenwettbewerb.de",
+  "license": "none",
+  "homepage": "https://www.maskenwettbewerb.de/",
+  "author": {
+    "name": "Jens Kuesters",
+    "email": "jens@kuesters.net",
+    "url": "https://www.kuesters.net/"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "uikit": "^3.3.7"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-google-webfonts": "^2.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rewrite-css": "^1.1.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "resolutions": {
+    "minimist": "^1.2.2"
+  }
+}
