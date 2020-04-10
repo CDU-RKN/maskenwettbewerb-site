@@ -9,7 +9,7 @@
 @import "node_modules/uikit/src/scss/mixins.scss";
 
 // 3. Your custom mixin overwrites.
-
+@import "theme/navbar-mixins.scss";
 
 // 4. Import UIkit
 @import "node_modules/uikit/src/scss/uikit.scss";

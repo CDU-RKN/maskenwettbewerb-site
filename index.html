@@ -17,32 +17,35 @@
 </head>
 <body>
 <header id="header">
-	<nav class="uk-navbar-container uk-margin" uk-navbar>
-		<div class="uk-navbar-left">
-			<div class="uk-navbar-item">
-				<a href="https://www.facebook.com/StadtKurierNeuss/" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="facebook"></a>
-				<a href="https://www.instagram.com/stadtkurier_stadtspiegel/" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="instagram"></a>
+	<div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+		<nav class="uk-navbar-container uk-margin" uk-navbar>
+			<div class="uk-navbar-left">
+				<div class="uk-navbar-item">
+					<a href="https://www.facebook.com/StadtKurierNeuss/" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="facebook"></a>
+					<a href="https://www.instagram.com/stadtkurier_stadtspiegel/" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="instagram"></a>
+				</div>
 			</div>
-		</div>
-		<div class="uk-navbar-center">
-			<a class="uk-navbar-item uk-logo uk-text-primary" href="#">#maskenwettbewerb</a>
-		</div>
-		<div class="uk-navbar-right">
-			<div class="uk-navbar-item">
-				<img src="images/wappen_sw.png" alt="Neusser Wappen" width="72" height="50">
+			<div class="uk-navbar-center">
+				<a class="uk-navbar-item uk-logo uk-text-primary" href="#">#maskenwettbewerb</a>
 			</div>
-		</div>
-	</nav>
+			<div class="uk-navbar-right">
+				<div class="uk-navbar-item">
+					<img src="images/quirinus_header.png" alt="Quirinus mit Maske" width="40" height="40" class="uk-margin-right">
+					<img src="images/wappen_sw.png" alt="Neusser Wappen" width="57" height="40">
+				</div>
+			</div>
+		</nav>
+	</div>
 	<div class="uk-flex uk-flex-middle" data-uk-height-viewport="offset-top: true">
 		<div class="uk-width-1-1">
 			<div class="uk-section">
 				<div class="uk-container">
 					<div class="uk-grid-large" data-uk-grid>
-						<div class="uk-width-1-2@m"
+						<div class="uk-width-2-5@m"
 							 data-uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true; delay: 300">
 							<img src="images/quirinus.jpg" alt="Maske auf!">
 						</div>
-						<div class="uk-width-1-2@m uk-flex uk-flex-middle"
+						<div class="uk-width-3-5@m uk-flex uk-flex-middle"
 							 data-uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true; delay: 300">
 							<div>
 								<h1 class="uk-heading-medium uk-margin-remove-top uk-letter-spacing-xl">Masken schützen Euch und Andere.</h1>
@@ -291,18 +294,18 @@
 								<div class="uk-width-1-2@s uk-flex uk-flex-middle uk-flex-center uk-height-1-1">
 									<div class="uk-text-center">
 										<h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Sponsoren & Unterstützer</h3>
-										<img src="images/emmeline.png" width="300" height="200" class="uk-padding-small"><br>
-										<img src="images/edeka-gossens.png" width="300" height="129" class="uk-padding-small"><br>
-										<img src="images/tezgoer.png" width="300" height="200" class="uk-padding-small">
+										<img src="images/emmeline.png" width="300" height="200" class="uk-padding-small" alt="emmeline"><br>
+										<img src="images/edeka-gossens.png" width="300" height="129" class="uk-padding-small" alt="Edeka Gossens"><br>
+										<img src="images/tezgoer.png" width="300" height="200" class="uk-padding-small" alt="Schneiderei Tezgör">
 									</div>
 								</div>
 								<div class="uk-width-1-2@s uk-flex uk-flex-middle uk-flex-center uk-height-1-1">
 									<div class="uk-text-center">
 										<h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Medienpartner</h3>
-										<img src="images/stadt-kurier.png" width="300" height="83" class="uk-padding-small">
+										<img src="images/stadt-kurier.png" width="300" height="83" class="uk-padding-small" alt="Stadt-Kurier Neuss">
 										<hr>
 										<h3 class="uk-text-uppercase uk-h5 uk-letter-spacing-small">Partner</h3>
-										<img src="images/coronahilfe.png" width="200" height="160" class="uk-padding-small">
+										<img src="images/coronahilfe.png" width="200" height="160" class="uk-padding-small" alt="Coronahilfe in Neuss">
 									</div>
 								</div>
 							</div>
@@ -346,7 +349,23 @@
 </div>
 
 <div id="furtherInformation" class="uk-section uk-section-default">
-	Weitere Infos...
+	<div class="uk-container">
+		<h2 class="uk-heading-small uk-margin-medium">Studien und Artikel zum Weiterlesen</h2>
+		<div class="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
+			<div>
+				<a href="https://www.zeit.de/wissen/gesundheit/2020-03/christian-drosten-coronavirus-pandemie-deutschland-virologe-charite/komplettansicht" class="uk-link-text" target="_blank" rel="noopener noreferrer">Christian Drosten: "Wir müssen jetzt die Fälle senken. Sonst schaffen wir es nicht" (ZEIT ONLINE)<span class="uk-margin-left uk-text-primary" data-uk-icon="arrow-right"></span></a>
+			</div>
+			<div>
+				<a href="https://www.focus.de/gesundheit/news/schutz-gegen-covid-19-virologe-drosten-spricht-nichts-gegen-selbstgenaehte-mundschutzmasken_id_11785550.html" class="uk-link-text" target="_blank" rel="noopener noreferrer">Top-Virologe: Mit einem Mundschutz schützt man nicht sich selbst, sondern andere (Focus Online)<span class="uk-margin-left uk-text-primary" data-uk-icon="arrow-right"></span></a>
+			</div>
+			<div>
+				<a href="https://www.aerzteblatt.de/nachrichten/111695/Leopoldina-plaediert-fuer-Einsatz-von-Mund-und-Nasen-Schutz-sowie-Corona-App" class="uk-link-text" target="_blank" rel="noopener noreferrer">Leopoldina plädiert für Einsatz von Mund-und Nasen-Schutz (Deutsches Ärzteblatt)<span class="uk-margin-left uk-text-primary" data-uk-icon="arrow-right"></span></a>
+			</div>
+			<div>
+				<a href="https://naehfrosch.de/mundschutz-selber-naehen/" class="uk-link-text" target="_blank" rel="noopener noreferrer">Mundschutz selber nähen: Kostenlose Anleitungen zum Atemschutzmasken nähen (Nähfrosch)<span class="uk-margin-left uk-text-primary" data-uk-icon="arrow-right"></span></a>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div id="quotes" class="uk-section uk-section-primary">
