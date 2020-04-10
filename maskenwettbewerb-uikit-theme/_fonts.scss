@@ -7,3 +7,21 @@
 	unicode-range: U+0-10FFFF;
 }
 
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url(dist/fonts/Nunito_Sans-normal-700.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: local('Nunito Sans ExtraBold'), local('NunitoSans-ExtraBold'), url(dist/fonts/Nunito_Sans-normal-800.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
