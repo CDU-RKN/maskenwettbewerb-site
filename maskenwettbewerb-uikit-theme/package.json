@@ -10,7 +10,7 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "uikit": "^3.5.6"
+    "uikit": "^3.5.7"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
