@@ -3402,10 +3402,10 @@ uglify-js@^3.0.5:
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.11.1.tgz#32d274fea8aac333293044afd7f81409d5040d38"
   integrity sha512-OApPSuJcxcnewwjSGGfWOjx3oix5XpmrK9Z2j0fTRlHGoZ49IU6kExfZTM0++fCArOOCet+vIfWwFHbvWqwp6g==
 
-uikit@^3.5.10:
-  version "3.5.10"
-  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.5.10.tgz#d7165a5f045a5f5af4dc9c3c670fbb08c9ae8a6d"
-  integrity sha512-X+OUD02atmks1yYG9C3FSo1EcQ0xfV0+NCHspTShd2uMKYcC5LiMq6o/MyxBxx2bQSeKXh6Kh8TqQ/v4LWI4Tg==
+uikit@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.12.2.tgz#7c8fa5c352394a134addd4946a35df9e80cb4af6"
+  integrity sha512-YfKozhmHysSZM2f50CR81QsBeWWBdbo1DfpGwJ/n5Q+OPQIY/YteImb+z+HDby+GFKP1crZYxew1EB/x8uvLqw==
 
 unc-path-regex@^0.1.2:
   version "0.1.2"
